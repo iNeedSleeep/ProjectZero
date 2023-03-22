@@ -1,0 +1,8 @@
+InteractionHelper:
+
+按下interactKey键时，获取距离自身小于interactRange的物体中距离最近的物体，判断该GameObject是否挂载了Interactor脚本，如果是，则调用该物体的Interactor脚本的Interact函数，传入参数为自身的gameObject。
+
+Interactor:
+
+根据自身的interactType执行不同的交互逻辑
+
